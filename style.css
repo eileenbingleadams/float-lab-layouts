@@ -124,3 +124,17 @@ section:after {
     display:block;
     clear:both;
 }
+
+.flex {
+    display: flex;
+}
+
+.flexcolumn {
+    height: 100px;
+    background-color: purple;
+    margin:10px;
+    flex:1;
+}
+.flexcolumn.flexsize2 {
+    flex: 2;
+}
