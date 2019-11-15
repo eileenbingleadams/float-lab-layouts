@@ -53,15 +53,15 @@ section {
 }
 
 .column.nested.level2.size65 {
-    width: 66%;
+    width: 67%;
 }
 
 .column.nested.level2.size315 {
-    width: 32.1%;
+    width: 33%;
 }
 
 .column.nested.level2.size25 {
-    width: 23.75%;
+    width: 25%;
 }
 
 .column.float {
@@ -70,7 +70,7 @@ section {
 }
 
 .column.nested.level2.marginright {
-    margin-right:8px;
+    border-right:8px white solid;
 }
 
 .column.float.right {
