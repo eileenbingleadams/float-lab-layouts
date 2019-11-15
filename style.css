@@ -16,6 +16,8 @@ nav.back {
     margin-bottom:10px;
 }
 
+/* Styles for FLoat Layouts */
+
 section {
     background-color: white;
     border-width: 2px;
@@ -125,16 +127,40 @@ section:after {
     clear:both;
 }
 
+/* Styles for Flex Layouts */
+
 .flex {
     display: flex;
 }
 
+section.flex {
+    padding: 10px;
+}
+
 .flexcolumn {
-    height: 100px;
     background-color: purple;
-    margin:10px;
+    padding: 15px;
+    text-align: left;
+    color: rgb(155, 153, 153);
     flex:1;
 }
-.flexcolumn.flexsize2 {
-    flex: 2;
+
+.flexcolumn.border-right {
+    border-right:10px solid white;
+}
+
+.align-center {
+    align-self: center;
+}
+
+.height-fixed {
+    height: 75px;
+}
+
+.align-end {
+    align-self: flex-end;
+}
+
+.size-big {
+    flex:6;
 }
