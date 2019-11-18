@@ -88,6 +88,10 @@ section {
     width: 50%;
 }
 
+.column.size75 {
+    width:75%;
+}
+
 .column.size30 {
     width: 30%;
 }
