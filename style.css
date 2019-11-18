@@ -212,11 +212,14 @@ section.flex {
     height: 390px;
     background-color: purple;
     padding: 10px;
+    flex-direction:column;
+    justify-content: space-evenly;
 }
 
 .magazinecolumn {
-    height: 100px;
+    flex:1;
     background-color: white;
+    padding: 10px;
 }
 
 .magazinecolumn.flex {
@@ -224,10 +227,7 @@ section.flex {
 }
 
 .magazinecolumn.border-bottom {
-    height: 100px;
-    background-color: white;
     border-bottom: purple solid 10px;
-    padding: 10px;
 }
 
 .magazinecolumnlayer3 {
