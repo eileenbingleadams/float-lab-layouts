@@ -157,10 +157,44 @@ section.flex {
     height: 75px;
 }
 
+.height100 {
+    height: 100px;
+    padding:0px;
+}
+
 .align-end {
     align-self: flex-end;
 }
 
 .size-big {
     flex:6;
+}
+
+.flex.nav {
+    justify-content: space-between;
+}
+
+.flexnav.section{
+    flex:1;
+    display:flex;
+}
+
+.flexnav.section.rightside {
+    justify-content: flex-end;
+}
+
+.flexnav.left {
+    width:30%;
+    height: 75px; 
+    background-color: purple;
+}
+.flexnav.right{
+    width:20%;
+    height: 50px;
+    background-color: purple;
+    align-self:center;
+}
+
+.flexnav.right.border {
+    border-right:10px solid white;
 }
