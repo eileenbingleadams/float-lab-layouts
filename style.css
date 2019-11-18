@@ -198,3 +198,55 @@ section.flex {
 .flexnav.right.border {
     border-right:10px solid white;
 }
+
+.flexcolumn.layer1left {
+    flex:1;
+    height: 390px;
+    background-color: purple;
+    border-right: 10px white solid;
+    padding: 10px;
+}
+
+.flexcolumn.layer1right {
+    flex:5;
+    height: 390px;
+    background-color: purple;
+    padding: 10px;
+}
+
+.magazinecolumn {
+    height: 100px;
+    background-color: white;
+}
+
+.magazinecolumn.flex {
+    display: flex;
+}
+
+.magazinecolumn.border-bottom {
+    height: 100px;
+    background-color: white;
+    border-bottom: purple solid 10px;
+    padding: 10px;
+}
+
+.magazinecolumnlayer3 {
+    background-color: purple;
+    height: 100px;
+}
+
+.magazinecolumnlayer3.flex1 {
+    background-color: purple;
+    height: 100px;
+    flex: 1;
+}
+
+.magazinecolumnlayer3.flex2 {
+    background-color: purple;
+    height: 100px;
+    flex: 2;
+}
+
+.magazinecolumnlayer3.border-right {
+    border-right: 10px white solid;
+}
